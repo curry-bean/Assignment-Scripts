@@ -4,7 +4,7 @@
 	<title>
 		GROUP 2
 	</title>
-	
+	<link rel="shortcut icon" href="https://unsplash.com/s/photos/calculator" type="x-icon">
 	<!-- CSS property to create interactive
 		calculator interface -->
 	<style>
@@ -20,7 +20,15 @@
 			color:crimson; /* CHNAGE BACKGROUND COLOR OF TEXT*/
 			border: solid black 2px;
 		}
-		
+		.tile {
+			margin-bottom: 10px;
+			padding: 5px 0;
+			font-size: 13px ;
+			text-align:center;
+			width: 447px;
+			color:chocolate; /* CHANGE BACKGROUND COLOR OF TEXT*/
+			border: solid black 2px;
+		}
 		/* Set the button style */
 		#btn {
 			width: 100%;
@@ -85,7 +93,19 @@
 
 <body>
 	<div class = title >
-		GROUP 2 SIMPLE CALCULATOR
+		GROUP 2 SIMPLE CALCULATOR BY:
+	</div>
+	<div class = tile >
+		ALVIN WACHIRA & NDUNGU MAINA
+	</div>
+	<div class = tile >
+		JENNIFER KOSENCHA & STANLEY MACHARIA
+	</div>
+	<div class = tile >
+		JANE MURIMI & GRACY IVY MKANJALA &
+	</div>
+	<div class = tile >
+		JOSPHAT MWANGI
 	</div>
 	
 	<form name = "calc">
